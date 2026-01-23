@@ -1,6 +1,6 @@
 public Boolean isPassed(Boolean passedExam, Boolean passedAssignments, Boolean passedProject) {
 
-    if ((passedExam && passedAssignments) || (passedAssignments &&  passedProject) || (passedAssignments && passedProject)) {
+    if ((passedExam && passedAssignments) || (passedAssignments &&  passedProject) || (passedExam && passedProject)) {
         return true;
     }
 
