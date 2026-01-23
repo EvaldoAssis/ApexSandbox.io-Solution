@@ -1,9 +1,19 @@
 public Boolean isPassed(Boolean passedExam, Boolean passedAssignments, Boolean passedProject) {
 
+    /*
     if ((passedExam && passedAssignments) || (passedAssignments &&  passedProject) || (passedExam && passedProject)) {
         return true;
     }
 
-    return false;
+    return false;*/
+
+    // SEGUNDA FORMA
+    Ineteger count = 0;
+
+    if (passedExam) count ++;
+    if (passedAssignments) count ++;
+    if (passedProject) count ++;
+    
+    return count >= 2;
 
 }
