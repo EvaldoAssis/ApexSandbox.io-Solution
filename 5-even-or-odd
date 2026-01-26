@@ -1,6 +1,6 @@
 public String evenOrOdd(Integer num) {
     
-    if (num % 2 == 0) return 'even';
+    if (Math.mod(num, 2) return 'even';
 
     return 'odd';
 
