@@ -8,7 +8,7 @@ public Boolean companionPlants(String plant1, String plant2) {
         'onionscarrots', 
         'carrotsonions',
         'onionstomatoes',
-        'tomatoesonions',        
+        'tomatoesonions'        
     };
 
     String plantSet = plant1+plant2;
