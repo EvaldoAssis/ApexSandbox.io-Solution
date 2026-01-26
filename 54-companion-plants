@@ -4,7 +4,7 @@ public Boolean companionPlants(String plant1, String plant2) {
         'lettucecucumbers', 
         'cucumberslettuce', 
         'lettuceonions', 
-        'onionslettuce ',
+        'onionslettuce',
         'onionscarrots', 
         'carrotsonions',
         'onionstomatoes',
