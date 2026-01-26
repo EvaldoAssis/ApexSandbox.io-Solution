@@ -1,5 +1,7 @@
 public Boolean companionPlants(String plant1, String plant2) {
     
+    // PRIMEIRA FORMA
+
     /*Set<String> plants = new Set<String>{
         'lettucecucumbers', 
         'cucumberslettuce', 
@@ -16,6 +18,8 @@ public Boolean companionPlants(String plant1, String plant2) {
     if (plants.contains(plantSet)) return true;
 
     return false;*/
+
+    // SEGUNDA FORMA
 
     Map<String, Set<String>> companions = new Map<String, Set<String>>{
         'lettuce' => new Set<String>{ 'cucumbers', 'onions' },
